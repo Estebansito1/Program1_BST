@@ -63,8 +63,11 @@ using namespace std; //so I dont have to use std:: everytime when cout/cin endl
         cout << "BST inorder sorted: "; //print
         inorder(root); cout << "\n"; //display number in sorted order
 
-
-
+// lets search for two values
+    cout<<"search 40: "
+        <<(search(root, 40) ? "found" : "not found") << "\n"; // 40 shoul be found since it is on the list
+    cout<<"search 29 : "
+        <<(search(root, 29) ? "found" : "not found") << "\n"; // 29 should not be found
 
     }
 
